@@ -1,0 +1,30 @@
+.timer-container {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+body{
+    text-align: center;
+}
+.timer-container > div{
+    padding: 2px 8px;
+    border-radius: 5px;
+    background: #c45252a1;
+    margin-bottom: 20px;
+}
+body> input{
+    border-radius: 5px;
+    height: 22px;
+    width: 110px;
+    margin-bottom: 5px;
+}
+body> button{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
